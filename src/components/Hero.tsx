@@ -9,9 +9,9 @@ const Hero = () => {
         <div className="flex justify-center mb-6">
           <Icon name="Truck" size={64} className="text-orange-500" />
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 font-montserrat">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 font-montserrat">
           СтройМатериалы
-          <span className="block text-orange-500 text-3xl md:text-4xl mt-2">
+          <span className="block text-orange-500 text-2xl md:text-3xl mt-2">
             ПОСТАВКА И ДОСТАВКА
           </span>
         </h1>
