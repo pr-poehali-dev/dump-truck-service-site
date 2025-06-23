@@ -17,12 +17,22 @@ const Header = () => {
 
           {/* Навигационное меню */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Button
-              variant="ghost"
-              className="text-white hover:text-orange-500 hover:bg-transparent"
-            >
-              Главная
-            </Button>
+            <a href="/">
+              <Button
+                variant="ghost"
+                className="text-white hover:text-orange-500 hover:bg-transparent"
+              >
+                Главная
+              </Button>
+            </a>
+            <a href="/about">
+              <Button
+                variant="ghost"
+                className="text-white hover:text-orange-500 hover:bg-transparent"
+              >
+                О нас
+              </Button>
+            </a>
             <Button
               variant="ghost"
               className="text-white hover:text-orange-500 hover:bg-transparent"
